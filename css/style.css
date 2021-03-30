@@ -21,7 +21,10 @@ li {
 }
 
 /* Base + Font styles */
-/* -------------------- */
+body {
+  font-family: "Josefin Sans";
+}
+
 /* Mobile styles -- Starting point */
 /* -------------------- */
 /* Footer styles */
