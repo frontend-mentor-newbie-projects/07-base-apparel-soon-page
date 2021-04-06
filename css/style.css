@@ -33,6 +33,15 @@ div#container header img {
   height: 24px;
 }
 
+div#container #hero {
+  margin-bottom: 64px;
+  height: 250px;
+}
+
+div#container #hero img {
+  width: 375px;
+}
+
 /* Mobile styles -- Starting point */
 body {
   display: flex;

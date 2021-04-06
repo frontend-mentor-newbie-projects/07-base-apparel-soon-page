@@ -63,6 +63,16 @@ div#container header {
     }
 }
 
+div#container #hero {
+    margin-bottom: 64px;
+    
+    height: 250px;
+
+    img {
+        width: 375px;
+    }
+}
+
 // - Small mobile - 320px
 // - Medium mobile - 375px
 // - Large mobile - 425px
