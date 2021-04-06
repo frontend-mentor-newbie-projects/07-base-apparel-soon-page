@@ -25,6 +25,11 @@ body {
   font-family: "Josefin Sans";
 }
 
+div#container {
+  background-image: linear-gradient(135deg, white, #fff5f5);
+  background-repeat: no-repeat;
+}
+
 div#container header {
   margin: 32px 0;
   padding: 0 32px;
@@ -34,12 +39,12 @@ div#container header img {
   height: 24px;
 }
 
-div#container #hero {
+div#container section#hero {
   margin-bottom: 64px;
   height: 250px;
 }
 
-div#container #hero img {
+div#container section#hero img {
   width: 375px;
 }
 
@@ -58,7 +63,7 @@ div#container main h1 {
   margin-bottom: 32px;
 }
 
-div#container main h1 #leading {
+div#container main h1 span#leading {
   color: #ce9797;
   font-weight: 300;
 }
@@ -72,6 +77,105 @@ div#container main p {
   padding: 0 8px;
 }
 
+div#container main div#form-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 96px;
+  padding: 0;
+}
+
+div#container main div#form-container div.form-control input[type="email"] {
+  background: transparent;
+  font-family: "Josefin Sans";
+  width: 100%;
+  height: 48px;
+  border: 1px rgba(248, 191, 191, 0.5) solid;
+  border-right: none;
+  border-radius: 24px;
+  margin-bottom: 8px;
+  padding-left: 24px;
+}
+
+div#container main div#form-container div.form-control input[type="email"]::placeholder {
+  font-family: "Josefin Sans";
+  font-size: 12px;
+  font-weight: 500;
+  color: #ce9797;
+}
+
+div#container main div#form-container div.form-control input[type="email"]:focus {
+  outline: none;
+}
+
+div#container main div#form-container div.form-control.success input[type="email"] {
+  border: 2px solid #abf962;
+}
+
+div#container main div#form-container div.form-control.success i.fa-check-circle {
+  visibility: visible;
+  color: #abf962;
+}
+
+div#container main div#form-container div.form-control.error input[type="email"] {
+  border: 2px solid #f96262;
+}
+
+div#container main div#form-container div.form-control.error i.fa-exclamation-circle {
+  visibility: visible;
+  color: #f96262;
+}
+
+div#container main div#form-container div.form-control.error small {
+  visibility: visible;
+  margin-top: 0.4rem;
+  margin-bottom: 1.5rem;
+}
+
+div#container main div#form-container div.form-control i {
+  visibility: hidden;
+  font-size: 18px;
+  position: absolute;
+  top: 15px;
+  right: 88px;
+}
+
+div#container main div#form-container div.form-control small {
+  visibility: hidden;
+  display: block;
+  color: #f96262;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 24px;
+}
+
+div#container main div#form-container button {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 72px;
+  height: 50px;
+  text-align: center;
+  background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  border-radius: 24px;
+  border: none;
+  outline: none;
+  padding: 0;
+  box-shadow: 0 1px 1px rgba(248, 191, 191, 0.1), 0 2px 2px rgba(248, 191, 191, 0.1), 0 4px 4px rgba(248, 191, 191, 0.1), 0 8px 8px rgba(248, 191, 191, 0.1), 0 16px 16px rgba(248, 191, 191, 0.1), 0 32px 32px rgba(248, 191, 191, 0.1);
+}
+
+div#container main div#form-container button:focus {
+  outline: none;
+}
+
+div#container main div#form-container button:hover {
+  cursor: pointer;
+}
+
+div#container main div#form-container button:active {
+  cursor: pointer;
+}
+
 /* Mobile styles -- Starting point */
 body {
   display: flex;
@@ -79,11 +183,6 @@ body {
   align-items: center;
   margin: 0 auto;
   height: 100vh;
-}
-
-div#container {
-  background-image: linear-gradient(135deg, white, #fff5f5);
-  background-repeat: no-repeat;
 }
 
 /* Footer styles */

@@ -12,6 +12,10 @@
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Scripts -->
+  <script src="https://kit.fontawesome.com/d8d1809782.js" crossorigin="anonymous"></script>  
+  <script src="./scripts/script.js" async defer></script>
   
   <!-- Misc -->
   <title>Frontend Mentor | Base Apparel Coming Soon Page</title>
@@ -37,11 +41,21 @@
         <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
 
         <!-- Form -->
-        <form action="">
-          <input type="email" name="email-address" id="email-address" placeholder="Email Address" aria-label="Email Address">
+        <div id="form-container">
+          <form id="form" action="" method="post" autocomplete="off" novalidate>
 
-          <button><img src="./images/icon-arrow.svg" alt=""></button>
-        </form>
+            <!-- Form Controls -->
+            <div class="form-control">
+              <input type="email" name="email-address" id="email-address" placeholder="Email Address" aria-label="Email Address">
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+            </div>
+
+            <!-- Button -->
+            <button><img src="./images/icon-arrow.svg" alt="Submit"></button>
+          </form>
+        </div>
       </main>
   </div>
 
