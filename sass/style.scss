@@ -55,6 +55,14 @@ body {
     font-family: $font-stack;
 }
 
+div#container header {
+    padding: 32px;
+
+    img {
+        height: 24px;
+    }
+}
+
 // - Small mobile - 320px
 // - Medium mobile - 375px
 // - Large mobile - 425px

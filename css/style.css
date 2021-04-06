@@ -25,6 +25,14 @@ body {
   font-family: "Josefin Sans";
 }
 
+div#container header {
+  padding: 32px;
+}
+
+div#container header img {
+  height: 24px;
+}
+
 /* Mobile styles -- Starting point */
 body {
   display: flex;
