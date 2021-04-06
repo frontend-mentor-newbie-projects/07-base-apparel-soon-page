@@ -21,7 +21,7 @@ $gradient-2: (
 );
 
 $font-stack: "Josefin Sans";
-$body-font: 16px;
+$body-font-size: 16px;
 $font-weights: (
     "light": 300,
     "regular": 400,
@@ -66,7 +66,16 @@ body {
 
 /* Mobile styles -- Starting point */
 // 12 col | 8 col | 4 col
-/* -------------------- */
+body {
+    display: flex;
+
+    flex-flow: column nowrap;
+    align-items: center;
+
+    margin: 0 auto;
+
+    height: 100vh;
+}
 
 /* Footer styles */
 .attribution {
