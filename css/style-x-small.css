@@ -1,0 +1,14 @@
+/* Extra small and small phones styles -- The width of the screen is at least 320px */
+@media screen and (min-width: 320px) {
+  div#container {
+    min-width: 320px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  div#container {
+    min-width: 375px;
+    max-width: 425px;
+  }
+}
+/*# sourceMappingURL=style-x-small.css.map */
