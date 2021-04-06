@@ -26,7 +26,8 @@ body {
 }
 
 div#container header {
-  padding: 32px;
+  margin: 32px 0;
+  padding: 0 32px;
 }
 
 div#container header img {
@@ -40,6 +41,35 @@ div#container #hero {
 
 div#container #hero img {
   width: 375px;
+}
+
+div#container main {
+  padding: 0 32px;
+}
+
+div#container main h1 {
+  color: #413a3a;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 16px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+div#container main h1 #leading {
+  color: #ce9797;
+  font-weight: 300;
+}
+
+div#container main p {
+  color: #ce9797;
+  font-size: 13.5px;
+  text-align: center;
+  line-height: 24px;
+  margin-bottom: 32px;
+  padding: 0 8px;
 }
 
 /* Mobile styles -- Starting point */

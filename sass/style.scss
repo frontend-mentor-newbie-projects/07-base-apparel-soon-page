@@ -56,7 +56,8 @@ body {
 }
 
 div#container header {
-    padding: 32px;
+    margin: 32px 0;
+    padding: 0 32px;
 
     img {
         height: 24px;
@@ -65,11 +66,46 @@ div#container header {
 
 div#container #hero {
     margin-bottom: 64px;
-    
+
     height: 250px;
 
     img {
         width: 375px;
+    }
+}
+
+div#container main {
+    padding: 0 32px;
+
+    h1 {
+        color: $neutral-1;
+        font-weight: 700;
+        font-size: 32px;
+
+        letter-spacing: 16px;
+        line-height: 40px;
+
+        text-transform: uppercase;
+        text-align: center;
+
+        margin-bottom: 32px;
+    }
+    
+    h1 #leading {
+        color: $primary-1;
+        font-weight: 300;
+    }
+    
+    p {
+        color: $primary-1;
+        font-size: 13.5px;
+
+        text-align: center;
+
+        line-height: 24px;
+
+        margin-bottom: 32px;
+        padding: 0 8px;
     }
 }
 
