@@ -73,10 +73,8 @@ div#container header {
 div#container section#hero {
     margin-bottom: 64px;
 
-    height: 250px;
-
     img {
-        width: 375px;
+        width: 100%;
     }
 }
 
@@ -264,8 +262,6 @@ body {
     align-items: center;
 
     margin: 0 auto;
-
-    height: 100vh;
 }
 
 /* Footer styles */

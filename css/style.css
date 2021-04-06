@@ -41,11 +41,10 @@ div#container header img {
 
 div#container section#hero {
   margin-bottom: 64px;
-  height: 250px;
 }
 
 div#container section#hero img {
-  width: 375px;
+  width: 100%;
 }
 
 div#container main {
@@ -182,7 +181,6 @@ body {
   flex-flow: column nowrap;
   align-items: center;
   margin: 0 auto;
-  height: 100vh;
 }
 
 /* Footer styles */
