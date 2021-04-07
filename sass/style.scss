@@ -70,12 +70,16 @@ div#container header {
     }
 }
 
-div#container section#hero {
+div#container section#hero-mobile {
     margin-bottom: 64px;
 
     img {
         width: 100%;
     }
+}
+
+div#container section#hero-desktop {
+    display: none;
 }
 
 div#container main {

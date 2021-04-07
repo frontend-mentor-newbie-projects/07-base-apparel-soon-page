@@ -1,4 +1,84 @@
 /* Desktop styles -- The width of the screen is at least 1200px */
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
+    body {
+        max-height: 800px;
+        padding: 0 0 0 0;
+    }
+
+    div#container {
+        background:
+            url(../images/bg-pattern-desktop.svg) 0 0,
+            linear-gradient(135deg, hsl(0, 0%, 100%),hsl(0, 100%, 98%));
+        background-repeat: no-repeat;
+
+        padding-left: 168px;
+        max-width: 1440px;
+
+        display: grid;
+        grid-template-columns: 1fr 608px;
+        grid-template-rows: auto;
+        gap: 224px;
+    }
     
+    div#container header {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+
+        margin: 0;
+        margin-top: 64px;
+        padding: 0;
+    
+        img {
+            height: 32px;
+        }
+    }
+
+    div#container section#hero-mobile {
+        display: none;
+    }
+
+
+    div#container section#hero-desktop {
+        height: 100%;
+        display: block;
+
+        img {
+            width: 100%;
+        }
+
+        grid-column: 2 / -1;
+        grid-row: 1 / -1;
+    }
+
+    div#container main {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+
+        width: 440px;
+
+        margin-top: 232px;
+        padding: 0px;
+
+        h1 {
+            font-size: 48px;
+            line-height: 56px;
+    
+            text-align: left;
+
+            margin-bottom: 40px;
+        }
+
+        p {
+            font-size: 14.5px;
+            text-align: left;
+
+            width: 424px;
+    
+            margin-bottom: 48px;
+        }
+    }
+
+    div#container main div#form-container {
+        margin-bottom: 0;
+    }
 }

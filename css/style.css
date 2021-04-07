@@ -39,12 +39,16 @@ div#container header img {
   height: 24px;
 }
 
-div#container section#hero {
+div#container section#hero-mobile {
   margin-bottom: 64px;
 }
 
-div#container section#hero img {
+div#container section#hero-mobile img {
   width: 100%;
+}
+
+div#container section#hero-desktop {
+  display: none;
 }
 
 div#container main {
